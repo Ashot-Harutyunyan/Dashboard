@@ -1,0 +1,28 @@
+{
+  "TransitionsState": {
+    "series": [1, 5, 4, 3, 2],
+    "categories": ["Tasks", "Knowledge Transfer", "Production Parallel", "Live Execution", "Completed"]
+  },
+  "DueDateOne": {
+    "series": [3, 2],
+    "categories": ["Completed due date (3)", "Nearing due date (2)"]
+  },
+  "CycleTime": {
+    "series": [
+      {"name": "Average Cycle time", "data": [12, 4, 13, 8]},
+      {"name": "Agreed TAT", "data": [10, 5, 15, 7]}
+    ],
+    "categories": ["TASKS APPROVING", "KNOWLEDGE TRANSFER", "PRODUCTION PARALLEL", "LIVE EXECUTION"]
+  },
+  "DueDateTwo": {
+    "series": [10, 4],
+    "categories": ["Reviewed tasks (26)", "Not reviewed tasks: (18)"]
+  },
+  "TransitionStateSecond": {
+    "series": [{"name": "Completed on time", "data": [5, 4, 3, 1]}, {"name": "Completed over due date", "data": [2, 3, 2, 1]}, {"name": "Not completed", "data": [1, 1, 3, 5]}],
+    "categories": ["TASKS", "KNOWLEDGE TRANSFER", "PRODUCTION PARALLEL", "LIVE EXECUTION"]
+  },
+  "TasksApprovalRate": {
+    "series": [{"name": "Tasks", "data": [71, 29]}]
+  }
+}
